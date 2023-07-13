@@ -1,0 +1,149 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    background-repeat: no-repeat;
+    display: block;
+    overflow: hidden;
+}
+
+
+.logo {
+    float: left;
+    margin-left: 46px;
+    padding:  18x;
+    font-family: 'Poppins',sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.logo span {
+    color: gold;
+}
+.logo a {
+    color: white;
+}
+
+.logo a:hover {
+    color: gold;
+    border-bottom: 3px solid gold;
+    text-decoration: underline;
+    transition: .5s;
+}
+
+.nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding:  38px ;
+    margin-right: 20px;
+    height: 80px;
+    width: 100%;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    float: right;
+    margin-left: 140px;
+    cursor: pointer;
+}
+
+.nav ul li a{
+    list-style: none;
+    justify-content: space-between;
+    display: inline-block;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    padding: 15px ;
+    font-weight: bold;
+}
+
+.nav ul li a:hover {
+    color: gold;
+    text-decoration: underline;
+    transition: .5s;
+}
+
+.nav ul li a.active {
+    color: gold;
+    text-decoration: underline;
+}
+
+.header {
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+
+
+
+.header h1 {
+    color:white;
+    text-align: left;
+    font-size: 40px;
+    font-family: 'Poppins',sans-serif;
+    
+}
+
+/* .sec-text::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    border-left: 2px solid white;
+    animation: animate 12s steps(12) infinite;
+}
+
+@keyframes animate {
+    40%, 60%{
+        left: 100%;
+    }
+    100% {
+        left: 0;
+    }
+} */
+
+.content-header {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    top: 60%;
+    left: 70%;
+}
+
+.content-header p {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    text-align: left;
+}
+.content-header p span {
+    color: gold;
+    font-size: 20px;
+}
+
+.header-img {
+    position: absolute;
+    top: 50%;
+    left: 22%;
+    transform: translate(-50%, -50%);
+    text-align: -webkit-right;
+}
+
+.header-img img {
+    width: 70%;
+}
